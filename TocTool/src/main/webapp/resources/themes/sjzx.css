@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#1aa5f9; }
+.sjzx_list{ width:90%; margin:0 auto; padding-bottom:30px; width:100%}
+.sjzx_list h1{ color:#fff; text-align:center; margin-top:20px; margin-bottom:20px;}
+.sjzx_list table{ border-top:1px solid #505bc8; border-left:1px solid #d7d7d7; width:100%;  }
+.sjzx_list table.table_inp{ border:none;}
+.sjzx_list table.table_inp td{ border:none !important; text-align:left;  padding-left:10px; }
+.sjzx_list table.table_inp td .input{ width:312px; height:25px; border:1px solid #999; padding:0 5px;}
+.sjzx_list table.table_inp td .input2{ width:140px;height:25px; border:1px solid #999; padding:0 5px;}
+.sjzx_list table.table_inp td .input3{ width:324px; height:27px; border:1px solid #999; padding-left:5px;}
+.sjzx_list table.table_inp tr{ background:none;}
+.sjzx_list tr{ height:55px; }
+.sjzx_list tr:hover{ background:#e3edf7;}
+.sjzx_list .price_tabwww td{ border-bottom:1px solid #3095ec; border-right:1px solid #3095ec; text-align:center; padding-left:5px; padding-right:5px; color:#fff; font-size:18px;}
+.sjzx_search table{ width: auto; }
+.sjzx_search table, .sjzx_search table td{ border:none;  }
+.sjzx_search table tr:hover{ background:#e3edf7;}
+.sjzx_list .head{ background:#f6fdff;  font-size:22px; font-weight:bold;  border:none;}
+.sjzx_list .head_tit{ background:#a3d1fd; height:10px !important;}
+.sjzx_list .head_tit:hover{background:#a3d1fd;}
+.sjzx_list .head td{ color:#0063ba; text-align:center;}
+
+
+/**/
+ol, ul,li{ list-style-type: none;}
+.g1_width{ height:660px; overflow:hidden; border-bottom:1px solid #d7d7d7; }
+.g1_width li{ margin-top:-2px; }
+.price_tabwww tr:hover{ background:#1322b5;}
+.price_tabwww{background:#007ecd;}
+
+

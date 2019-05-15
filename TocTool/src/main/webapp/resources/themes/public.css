@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px; text-decoration:none; font-family:"微软雅黑", "Microsoft YaHei";}
+body{  font-size:12px; line-height:25px; }
+*{ margin: 0px; padding: 0px;}
+body{ font-family: "microsoft yahei";}
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {  margin: 0;  padding: 0;  border: 0;  outline: 0;  text-decoration:none; } 
+:focus {  outline: 0; }
+table {border-collapse:collapse;/*collapse : 相邻边被合并*/   border-spacing: 0;/*相邻边距离为0px*/ }
+a img,img,iframe { border: 0px;} 
+ol, ul,li{ list-style-type: none;} 
+/*按钮，下拉选项，文本输入框*/
+button{border:none;cursor:pointer;font-size:12px;} 
+select{border-width:1px;_zoom:1;border-style:solid;vertical-align:middle; padding-left:5px;}
+input {font-family: "Microsoft YaHei"; vertical-align:middle; padding: 0px 5px; color:#434343;} 
+textarea{word-wrap:break-word;word-break:break-all;padding:0px 5px;}/*强制输入时内容超出时换行
+em{font-weight:normal;}
+
+/** 重置列表元素 **/
+ul,ol{ list-style:none;}
+a{text-decoration:none;}
+/** 重置图片元素 **/
+img{ border:0px; vertical-align:top;}
+
+/**div居中**/
+div{margin:0 auto;}
+
+/** 重置表格元素 **/
+table {border-collapse:collapse;border-spacing:0;}
+.phcolor{ color:#ccc;}
+/**重置表格元素**/
+button,input{height:22px;}
+div{ display:block; }
+.main{ width:1200px; display:block; margin:0 auto;  }/*********  页面主题宽度   **********/
+.main2{min-height:400px; width:1170px; background:#ffffff; margin:0 auto; height:100%; overflow:hidden; }
+.welcome{ width:300px; float:left; }
+.link{ width:550px; float:left; padding-left:350px;}
+.logo{ width:485px; height:61px; float:left;}
+.logo img{display:block; float:left; }
+.menu{ height: 42px; width:100%; display:block; clear:both; background:#0e6fd3;  }
+.menu ul{ width:1200px; height:42px;display:block;  margin:0 auto; }
+.menu li{ float:left; list-style:none; }
+.menu li a{ float:left;display:block; width:109px; height:42px; text-align:center; font-size:16px;  line-height:42px; color:#ffffff;}
+.menu li a:hover,.menu li .cur{ color:#ffffff; background:#1d86f3; text-decoration:none; }
+.top{ width:120px; height:25px; float:left;   margin-top:20px;  }
+.top a{ width:57px; padding-left:18px; height:25px; line-height:25px; float:left; display:block; color:#666666; }
+.top .sy{ background:url(../images/top_05.jpg) no-repeat left;}
+.top .sc{ background:url(../images/top_07.jpg) no-repeat left;}
+.top .zc{ width:35px; height:25px;  line-height:25px; float:left; display:block; margin-left:3px;  text-align:center; background:url(../images/sc_05.jpg) no-repeat left 4px; color:#428bca;  border-radius:2px; }
+.top .dl{ background:url(../images/sc_08.jpg) no-repeat left 3px;}
+
+.banquan{ width:100%; height:318px; display:block; margin:0 auto; background:url(../images/banquan_29.jpg) repeat-x; position:relative; z-index:999999; }
+.gjdw{ width:240px; float:left; margin:40px 15px; margin-bottom:20px; }
+.gjdw_title{ width:110px; height:40px; line-height:40px; font-size:18px; color:#ffffff; }
+.gjdw_list{ width:110px;}
+.gjdw_list li{ list-style:none; height:33px; line-height:33px;  width:110px; }
+.gjdw_list li a{ color:#cccccc;}
+.gjdw_list li a:hover{ color:#cccccc; text-decoration:underline; }
+.bzzx_list li{ background:none;  }
+
+.lxwm{ width:100px; float:left; margin:0px; margin-top:40px;  margin-bottom:20px;}
+.lxwm_title{ width:100px; height:40px; line-height:40px; font-size:18px; color:#FFFFFF; }
+.lxwm_list{ width:100px;}
+.lxwm_list li{ list-style:none; height:56px; line-height:25px; color:#FFFFFF; }
+.message{ width:100%; height:40px; line-height:40px; text-align:center; color:#FFFFFF; margin-top:13px;  }
+
+/***************** 固定顶部菜单及背景图  start************************/ 
+
+#topNavWrapper { 
+width: 100%; 
+margin: 0px auto; 
+z-index:100; 
+_position: relative ;
+background:#ffffff; 
+_top:0px; 
+} 
+#topNav { 
+width: 100%; 
+z-index: 100; 
+overflow: visible; 
+position: fixed; 
+top: 0px; /* position fixed for IE6 */ 
+_position: absolute; 
+_top: expression(documentElement.scrollTop + "px"); 
+
+background-repeat: no-repeat; 
+background-position: right; 
+height: 103px; 
+color:#fff; 
+background-color:#fff; 
+} 
+.filter_bg1{
+	width:1200px;
+    height:2000px;
+    background-color:#fff;
+    filter: Alpha(Opacity=40);
+	-moz-opacity:0.4; /* Moz + FF 透明度20%*/
+    opacity: 0.4;
+	display:block;
+	margin:0 auto;}
+/***************** 固定顶部菜单及背景图  end************************/ -->
+.xjr_main{ min-height:800px; width:1170px; margin:0 auto; padding-left:15px; padding-right:15px;  }
+
+
+
+
+.news_page{ width:auto; display:inline-block !important; display:inline; margin:15px auto; border:1px solid #d7d7d7; height:35px; }
+.news_page a{ width:auto;width:40px; display:block; float:left;  padding-left:8px; padding-right:8px; height:35px; line-height:35px; text-align:center;  border-left:1px solid #d7d7d7; }
+.news_page a:hover{ width:auto;width:40px; display:block; float:left;  padding-left:8px; padding-right:8px; height:35px; background:#1e9fff; color:#ffffff; line-height:35px; text-align:center;  border-left:1px solid #d7d7d7; }
+.news_page .now{ background:#1e9fff; color:#ffffff;}
+.news_page .pre,.news_page .next{ width:62px; }
+.news_page .pre:hover,.news_page .next:hover{ width:62px; }
+
+.more{ width:36px; height:11px; background:url(../images/more_09.jpg) no-repeat; display:block; float:right; }
+
+ 

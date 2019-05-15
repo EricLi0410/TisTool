@@ -1,0 +1,175 @@
+@CHARSET "UTF-8";@CHARSET "UTF-8";
+@media screen and (max-width: 1920px) {
+body{
+background-color: #f0f0f0;
+}
+   
+    #nav_code{
+    width:100%;
+    margin-bottom: 10px;
+    float: left;
+    margin-top: 30px;
+    }
+    #sina_code{
+    float: left;
+    margin-left: 350px;
+    text-align: center;
+    }
+    #wechat_code{
+    float: right;
+    margin-right: 300px;
+    text-align: center;
+    margin-left: 200px;
+    }
+    
+    #company_nav{
+    margin-top: 160px;
+    }
+    #about_h2{
+    font-weight:bold;
+    font-size: 35px;
+    color: #c2191f;
+    font-family:fantasy;
+    }
+    #more{
+    float: right;
+    font-size: 20px;
+    }
+    #product_div{
+    margin-top: 40px;
+    }
+    #product_h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    }
+    #product_p{
+    font-size: 18px;
+    margin-left: 40px
+    }
+       
+      #logo{
+    margin-top:10px;
+    margin-left:120px;
+    margin-right:110px;
+    float: left;
+    }
+    #wrap{
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-right: 0px;
+    }
+    #wrap ul li{
+    float: left;
+    font-size: 22px;
+    width: 120px;
+    text-align: center;
+    }
+   
+
+
+#oc-header{
+float: left;
+
+}
+
+ .nav_font{
+ float: left;
+ }
+ #font1{
+ width: 500px;
+ float: left;
+ margin-left: 40px;
+ margin-top: 20px;
+ }
+ .p1{
+ font-family: "宋体";	
+ font-size: 18px;
+ }
+ #img1{
+    float: left;
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+#font2{
+ width: 540px;
+ float: left;
+  margin-left: 40px;
+ margin-top: 45px;
+ }
+ #img2{
+ float: left;
+ width: 500px;
+ margin-left: 60px;
+ margin-top: 20px;
+    }
+    #img_4_jpg{
+    margin-left: 170px;
+    }
+ 
+  #font3{
+ width: 600px;
+ height: 100px;
+ float: left;
+ margin-top: 40px;
+ margin-left: 30px;
+ }
+ #img3{
+ float: left;
+ width: 600px;
+ } 
+ #font4{
+ width: 600px;
+ height: 100px;
+ float: left;
+ margin-top: 70px;
+ }
+ #img4{
+ float: left;
+  width: 600px;
+  margin-top: 40px;
+ } 
+
+
+p{
+font-size: 16px;
+line-height: 25px;
+margin-left: 30px;
+margin-right: 30px;
+} 
+#p{
+margin-top:15px;
+}
+#nav_1{
+margin-bottom: 100px;
+text-align: center;
+}
+#main_nav{
+
+margin-top:70px; 
+height: 300px;
+width: 1903px;
+}
+#about_img{
+	width: 1903px;
+	height: 400px;
+	
+}
+    .address{
+      margin-top: 30px;
+    }
+    #oc-container{
+    margin-top: 100px;
+    }
+  #index_logo{
+  margin-top: 10px;
+  width:220px;
+  height:60px;
+  }
+   
+}
+ 
