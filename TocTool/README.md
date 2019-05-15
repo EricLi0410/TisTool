@@ -1,2 +1,2 @@
 # TocTool
-This is the tools for Tencent Cloud international site 
+This is the tools for Tencent Cloud site 
